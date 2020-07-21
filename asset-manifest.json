@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/arc-build/static/css/main.02b8d94f.chunk.css",
-    "main.js": "/arc-build/static/js/main.c524f423.chunk.js",
-    "main.js.map": "/arc-build/static/js/main.c524f423.chunk.js.map",
+    "main.js": "/arc-build/static/js/main.8614789d.chunk.js",
+    "main.js.map": "/arc-build/static/js/main.8614789d.chunk.js.map",
     "runtime-main.js": "/arc-build/static/js/runtime-main.b7186ff2.js",
     "runtime-main.js.map": "/arc-build/static/js/runtime-main.b7186ff2.js.map",
     "static/js/2.29ed96ce.chunk.js": "/arc-build/static/js/2.29ed96ce.chunk.js",
     "static/js/2.29ed96ce.chunk.js.map": "/arc-build/static/js/2.29ed96ce.chunk.js.map",
     "index.html": "/arc-build/index.html",
-    "precache-manifest.00c5c9de72ef7924757bbdecab3faa2e.js": "/arc-build/precache-manifest.00c5c9de72ef7924757bbdecab3faa2e.js",
+    "precache-manifest.5ff7bf6e4c36573727f14d38679731a4.js": "/arc-build/precache-manifest.5ff7bf6e4c36573727f14d38679731a4.js",
     "service-worker.js": "/arc-build/service-worker.js",
     "static/css/main.02b8d94f.chunk.css.map": "/arc-build/static/css/main.02b8d94f.chunk.css.map",
     "static/js/2.29ed96ce.chunk.js.LICENSE.txt": "/arc-build/static/js/2.29ed96ce.chunk.js.LICENSE.txt",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.b7186ff2.js",
     "static/js/2.29ed96ce.chunk.js",
     "static/css/main.02b8d94f.chunk.css",
-    "static/js/main.c524f423.chunk.js"
+    "static/js/main.8614789d.chunk.js"
   ]
 }
