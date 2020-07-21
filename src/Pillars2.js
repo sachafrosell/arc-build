@@ -60,7 +60,7 @@ const colStyle = {
 
 }
 
-class Pillars extends React.Component {
+class Pillars2 extends React.Component {
 constructor(props){
   super(props);
   this.state = {
@@ -83,16 +83,16 @@ constructor(props){
     return (
       <>
         {this.top()}
-        <div className="wrapper" style={{background: "white"}}>
+        <div className="wrapper"  >
 
-          <div className="section section-about-us" style={{paddingTop: "50px", paddingBottom: "60px", background: "white"}}>
-            <Container>
+          <div className="section section-about-us" style={{paddingTop: "100px", paddingBottom: "100px", backgroundImage: "url(" + require("./assets/img/lake-burera.jpg") + ")"}}>
+            <Container style={{opacity: "80%"}}>
               <Row style={{display: "tableCell"}}>
-                <Col className="text-center" style={colStyle} md="6" id="assembly" onMouseEnter={this.handleHover} >
+                <Col className="text-center" style={colStyle} md="4" id="assembly" onMouseEnter={this.handleHover} >
                   <div class="1" style={divStyle1} >
                     <h1 style={titleStyle} className="title">
                       <span style={{fontWeight: "900px"}}>
-                        ASSEMBLY PLANTS
+                        APS SOIL STABILISATION
 
                       </span>
                     </h1>
@@ -101,30 +101,23 @@ constructor(props){
                       marginBottom: "15px",
                       display: "block",
                     maxWidth: "50px"}}></hr>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
+                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
 
 
-                      ARC Ride is focused on creating skilled job opportunities in each of the cities we operate.
-                      We want to foster in-country innovation and develop local workforce skills,
-                      feeding back into the countries in which we operate.
+                      This service covers a range of options including, but not limited to, Rural Roads, Feeder Roads, Car Parks, Driveways, Estates and Solar Sites. This solution is ideal for smaller projects and can be completed very quickly.
                     </h5>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
-                      The local assembly plant allows an ongoing R&D process to optimise E3 design and technical specifications,
-                      bespoke to each city. For example in Kigali, the topography requires a powerful vehicle to negotiate the many hills,
-                      and our vehicle will reflect those needs. Each country will have it's own design preferences,
-                      and our vehicles will aesthetically match the country in which they operate.
-                    </h5>
+
 
 
                   </div>
 
                 </Col>
 
-                <Col className="text-center" md="6" style={colStyle}>
+                <Col className="text-center" md="4" style={colStyle}>
                   <div style={divStyle1}>
                     <h1 style={titleStyle} className="title">
                       <span style={{fontWeight: "900px"}}>
-                        CHARGING STATIONS
+                        APS/CAP COLD ASPHALT MIX
 
                       </span>
                     </h1>
@@ -133,30 +126,28 @@ constructor(props){
                       marginBottom: "15px",
                       display: "block",
                     maxWidth: "50px"}}></hr>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
+                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
 
-                      ARC Ride is creating the charging transport infrastructure of the future.
-                      This will revolutionise the existing transport network.
-                      We build an EV charging and battery swap network across the city.
-                      This creates the backbone for an EV transport network and lay the foundations for future green growth.
-                      Our stations use solar generated electricity, helping pave the way for a more sustainable transport system.
-                    </h5>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
-                      Each charging station is a valuable social asset.
-                      They also provide public space such as cafes, electrical goods charging centres,
-                      and rest stops for drivers.
-                    </h5>
+                      This covers a range of options including,
+                      but not limited to Main Roads, Dual Carriageways,
+                      Motorways, Military Compounds, Air Strips and Airports,
+                      Mining, Construction, Runways and Helipads.
+                      This is the strongest service we offer and combines
+                      a base layer of APS reinforced with a cold asphalt covering.
+                      This ensures the roads can withstand an excess of 100 Tonne vehicle weight and last over 10 years.
+     </h5>
+
                   </div>
 
                 </Col>
 
-              </Row>
-              <Row style={{paddingTop: "30px", }}>
-                <Col className="text-center" style={colStyle} md="6">
+
+                <Col className="text-center" style={colStyle} md="4">
                   <div style={divStyle2}>
                     <h1 style={titleStyle} className="title">
+                      <br />
                       <span style={{fontWeight: "900px"}}>
-                        E3s
+                        ASPHALT
 
                       </span>
                     </h1>
@@ -165,20 +156,16 @@ constructor(props){
                       marginBottom: "15px",
                       display: "block",
                     maxWidth: "50px"}}></hr>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
+                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
 
-                      ARC Ride has identified Electric 3 wheelers (E3s) as a key component to the future of transport in African cities.
-                      Put simply, E3s offer a clean and affordable electric vehicle solution that other alternatives can not.
-                      We aim to emulate and improve upon the success of these vehicles in Asia and ultimately create an optimised vehicle model for African Cities’ roads.
-
+                      This service allows for a range of road based repairs,
+                      which include, but not limited to: Road Patching, Potholes,
+                      Cracked Roads. This solution is versatile and easy to use,
+                      quickly improving existing road infrastructure for a low cost.
 
 
                     </h5>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
-                      E3s are only the first step in ARC Ride’s long-term goal to be a dynamic and adaptable green public transport service in African cities.
-                      E3s will naturally progress to E4s as battery technology makes them commercially viable,
-                      and there is no limit to the diverse set of options that will become available as the EV market progresses.
-                    </h5>
+
 
 
 
@@ -186,34 +173,7 @@ constructor(props){
 
                 </Col>
 
-                <Col className="text-center" md="6" style={colStyle}>
-                  <div style={divStyle2}>
-                    <h1 style={titleStyle} className="title">
-                      <span style={{fontWeight: "900px"}}>
-                        RIDE APP
 
-                      </span>
-                    </h1>
-                    <hr style={{border: "0.5px solid black",
-                      marginTop: "15px",
-                      marginBottom: "15px",
-                      display: "block",
-                    maxWidth: "50px"}}></hr>
-
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
-                      ARC Ride fleet not only integrates with all leading ride hailing services we are also exploring the creation of our own technology that manages our fleet and tracks all rides. Our aim is to provide a solution which encompasses multiple payment solutions, can host both internal and external Drivers, use live GPS monitoring, app function for gender specific rides and offer 24/7 hr customer support.
-
-
-                    </h5>
-                    <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
-
-                      Our app interface will work across IOS and Android - for those who do not have smartphones, a USSD payment solution will be also integrated. Watch this space for exciting partnership announcements and updates to our core operating system.
-
-                    </h5>
-
-                  </div>
-
-                </Col>
 
               </Row>
 
@@ -227,4 +187,4 @@ constructor(props){
 
 }
 
-export default Pillars;
+export default Pillars2;

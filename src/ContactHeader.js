@@ -83,14 +83,12 @@ function ContactHeader() {
             }}></p>
           <h5 className="description" style={{fontSize: "17px", fontWeight: "500px", color: "#FFF", fontWeight: "500px"}}>
 
-              Are you a city who wants a fleet of E3’s,
-              an investor looking to be part of the next big thing,
-              or someone who cares about Green Mass-Transport?
+              We are always looking for exciting new projects to help work on. Please contact us for a quote: We are always happy to discuss your project and its requirements.
             </h5>
 
             <h5 className="description" style={{fontSize: "17px", color: "#FFF", fontWeight: "500px"}}>
 
-              We would love to hear from you.
+              We look forward to hearing from you.
             </h5>
               </div>
 

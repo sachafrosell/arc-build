@@ -76,9 +76,7 @@ function Team() {
           }}></p>
           <h5 className="description" style={{fontSize: "17px", color: "#FFF", fontWeight: "500px"}}>
 
-            The ARC management team has an extensive track record in construction and has a plethora of experience in
-            building new businesses in Africa. We have created a team of global experts in their respective fields,
-            alongside experienced local actors in the industry.
+            The ARC management team has an extensive track record in construction and has a plethora of experience in building new businesses in Africa. We have created a team of global experts in their respective fields, alongside experienced local actors in the industry.  Our mission is to deliver high quality infrastructure across all the projects we work on. Placing an emphasis on creating sustainable solutions to meet our clients needs.
 
           </h5>
 

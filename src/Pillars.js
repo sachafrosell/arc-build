@@ -26,6 +26,7 @@ import TukTukImg from './assets/img/800px_COLOURBOX25316311.jpg'
 import TukTukImg2 from './assets/img/tuk-tuk22.jpg'
 import City4 from './assets/img/city4.jpg'
 import Challenge from './Challenge.js'
+import Pillars2 from './Pillars2.js'
 
 
 const titleStyle = {
@@ -83,6 +84,7 @@ constructor(props){
     return (
       <>
         <Challenge />
+        <Pillars2 />
       </>
     );
   }

@@ -78,7 +78,7 @@ function PillarPageHeader() {
               <span style={{fontWeight: "900"}}>
                 AFFORDABLE MODULAR HOUSING
               </span>
-            </h1> : <h1 className="title" style={{textAlign: "left", fontSize: "35px", letterSpacing: "5px", fontWeight: "300"}}>
+            </h1> : <h1 className="title" style={{textAlign: "left", fontSize: "30px", letterSpacing: "5px", fontWeight: "300"}}>
             <span >
               ARC BUILD:
             </span>

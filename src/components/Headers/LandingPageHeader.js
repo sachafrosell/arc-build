@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Button, Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -70,42 +70,33 @@ function LandingPageHeader() {
         ></div>
       <div className="content-left">
           <Container style={{paddingTop: "300px", width: "200%"}}>
-            {dimensions.width >= 400 ? <h1 className="title" style={{textAlign: "left", fontSize: "60px", letterSpacing: "5px", fontWeight: "300"}}>
-              <span style={{fontWeight: "900"}}>
-                BUILDING
-              </span>
-              <span> </span>
-              <span>
-                AN INFRASTRUCTURE
-              </span>
-              <span> </span>
-              <span style={{fontWeight: "900"}}>
-                REVOLUTION
-              </span>
-
-            </h1> : <h1 className="title" style={{textAlign: "left", fontSize: "35px", letterSpacing: "5px", fontWeight: "300"}}>
-              <span style={{fontWeight: "900"}}>
-                BUILDING
-              </span>
-              <span> </span>
-            <br />
-              <span>
-                AN INFRASTRUCTURE
-              </span>
-              <br />
+            {dimensions.width >= 400 ? <span> <h1 className="title" style={{textAlign: "left", fontSize: "60px", letterSpacing: "5px", fontWeight: "300"}}>
               <span >
-                REVOLUTION
+                BUILDING
+              </span>
+              <span> </span>
+              <span style={{fontWeight: "900"}}>
+                SUSTAINABLE
+              </span>
+              <span> </span>
+              <span >
+                INFRASTRUCTURE
               </span>
 
-            </h1>}
 
+            </h1>
             <span>
               <Link to='/arc-roads'>
                 <Button style={ButtonStyle}>
-                  OUR APPROACH
+                  ARC ROAD
                 </Button>
               </Link>
 
+              <Link to='/arc-housing'>
+                <Button style={ButtonStyle}>
+                  ARC HOUSING
+                </Button>
+              </Link>
               <Link to='/contact'>
                 <Button style={ButtonStyle}>
                   GET IN TOUCH
@@ -113,6 +104,52 @@ function LandingPageHeader() {
               </Link>
 
             </span>
+          </span> : <span><h1 className="title" style={{textAlign: "left", fontSize: "30px", letterSpacing: "5px", fontWeight: "300"}}>
+              <span >
+                BUILDING
+              </span>
+              <span> </span>
+            <br />
+              <span style={{fontWeight: "900"}}>
+                SUSTAINABLE
+              </span>
+              <br />
+              <span >
+                INFRASTRUCTURE
+              </span>
+
+            </h1>
+            <Row>
+
+              <Link to='/arc-roads'>
+                <Button style={ButtonStyle}>
+                  ARC ROAD
+                </Button>
+              </Link>
+
+              <Link to='/arc-housing'>
+                <Button style={ButtonStyle}>
+                  ARC HOUSING
+                </Button>
+              </Link>
+            </Row>
+            <Row style={{paddingTop: "20px"}}>
+              <Link to='/contact'>
+                <Button style={ButtonStyle}>
+                  GET IN TOUCH
+                </Button>
+              </Link>
+
+            </Row>
+
+
+
+
+
+
+          </span>}
+
+
 
           </Container>
         </div>

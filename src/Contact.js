@@ -8,11 +8,6 @@ import store from './Store.js'
 import TukTukImg2 from './assets/img/tuk-tuk2.jpg'
 import Team from './Team.js'
 
-
-
-
-
-
 // reactstrap ./components
 import {
   Button,

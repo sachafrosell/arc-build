@@ -121,6 +121,7 @@ function ExamplesNavbar(props) {
           <div className="navbar-translate" style={{position: "absolute", top: "8px"}}>
 
             <NavbarBrand style={{padding: "0px"}}>
+              <Link to="/home">
               <img
                 src={colors.logo}
                 style={{
@@ -129,6 +130,7 @@ function ExamplesNavbar(props) {
                 }}
               >
               </img>
+            </Link>
             </NavbarBrand>
             {dimensions.width >= 1200 ? <Nav style={{float: "right", marginRight: "-950px"}}>
               <NavItem>

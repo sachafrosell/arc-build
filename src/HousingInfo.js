@@ -59,7 +59,7 @@ function Competition() {
           }}
 
         ></div>
-      <Container style={{paddingBottom: "200px"}}>
+      <Container style={{paddingBottom: "100px"}}>
 
           <div style={{textAlign: "left", marginTop: "-20px", paddingBottom: "25px"}}>
             <h1 style={titleStyle} className="title">
@@ -130,7 +130,7 @@ function Competition() {
 
 
 
-          <div className="separator separator-primary"></div>
+
         </Container>
       </div>
 
