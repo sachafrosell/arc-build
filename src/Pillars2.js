@@ -101,7 +101,7 @@ constructor(props){
                       marginBottom: "15px",
                       display: "block",
                     maxWidth: "50px"}}></hr>
-                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
+                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px", opacity: "60%"}}>
 
 
                       This service covers a range of options including, but not limited to, Rural Roads, Feeder Roads, Car Parks, Driveways, Estates and Solar Sites. This solution is ideal for smaller projects and can be completed very quickly.
@@ -126,7 +126,7 @@ constructor(props){
                       marginBottom: "15px",
                       display: "block",
                     maxWidth: "50px"}}></hr>
-                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
+                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px", opacity: "60%"}}>
 
                       This covers a range of options including,
                       but not limited to Main Roads, Dual Carriageways,
@@ -156,7 +156,7 @@ constructor(props){
                       marginBottom: "15px",
                       display: "block",
                     maxWidth: "50px"}}></hr>
-                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px"}}>
+                  <h5 className="description" style={{fontSize: "15px", color: "black", fontWeight: "500px", opacity: "60%"}}>
 
                       This service allows for a range of road based repairs,
                       which include, but not limited to: Road Patching, Potholes,
