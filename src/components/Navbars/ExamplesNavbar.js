@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import LogoLight from "../../assets/img/logo_BUILD_LIGHT.png";
-import LogoDark from "../../assets/img/logo_BUILD_DARK.png";
+import LogoLight from "../../assets/img/arcbuildlight.png";
+import LogoDark from "../../assets/img/arcbuilddark.png";
 import store from '../../Store.js';
 // reactstrap components
 import {

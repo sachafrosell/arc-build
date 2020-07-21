@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React from "react";
-import LogoLight from "../../assets/img/logo_BUILD_LIGHT.png"
+import LogoLight from "../../assets/img/arcbuildlight.png"
 import { Link } from 'react-router-dom'
 
 // reactstrap components
@@ -26,6 +26,8 @@ function InfoFooter() {
         <Row  style={{paddingTop: "20px", paddingBottom: "20px"}}>
           <Col  md="5">
             <div>
+
+
               <img
                 src={LogoLight}
                 style={{
@@ -35,6 +37,7 @@ function InfoFooter() {
                 }}
               >
               </img>
+
             </div>
             <h5 style={{fontSize: "13px", opacity: "30%"}}>
               To create a scalable and sustainable green transport solution across Africa,
