@@ -70,7 +70,7 @@ function LandingPageHeader() {
         ></div>
       <div className="content-left">
           <Container style={{paddingTop: "300px", width: "200%"}}>
-            {dimensions.width >= 400 ? <span> <h1 className="title" style={{textAlign: "left", fontSize: "60px", letterSpacing: "5px", fontWeight: "300"}}>
+            {dimensions.width >= 600 ? <span> <h1 className="title" style={{textAlign: "left", fontSize: "60px", letterSpacing: "5px", fontWeight: "300"}}>
               <span >
                 BUILDING
               </span>
