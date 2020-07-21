@@ -86,6 +86,10 @@ function InfoFooter() {
                 ARC GLOBAL
               </a>
               <p style={{marginTop: "-10px"}}></p>
+              <a target="_blank" href="https://arcrideglobal.com/" style={{color: "inherit"}}>
+                ARC RIDE
+              </a>
+              <p style={{marginTop: "-10px"}}></p>
               <a target="_blank" href="https://www.facebook.com/ARC-Ride-100580288315491" style={{color: "inherit"}}>
                 FACEBOOK
               </a>
