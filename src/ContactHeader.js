@@ -66,7 +66,7 @@ function ContactHeader() {
         ></div>
         <Container>
 
-          <div style={{textAlign: "left", paddingTop: "80px"}}>
+          <div style={{textAlign: "left", paddingTop: "80px", paddingLeft: "20px"}}>
             <h1 style={titleStyle} className="title">
               <span style={{fontWeight: "900px"}}>
                 GET IN TOUCH

@@ -69,7 +69,7 @@ function PillarPageHeader() {
           ref={pageHeader}
         ></div>
       <div className="content-left">
-          <Container style={{padding: "0px", paddingTop: "150px"}}>
+          <Container style={{padding: "0px", paddingTop: "150px", paddingLeft: "20px"}}>
             {dimensions.width >= 507 ? <h1 className="title" style={{textAlign: "left", fontSize: "60px", letterSpacing: "5px", fontWeight: "300"}}>
               <span >
                 ARC BUILD:

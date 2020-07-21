@@ -56,7 +56,7 @@ const divStyle2 = {
 }
 
 const colStyle = {
-  paddingTop: "5px",
+  paddingTop: "5px"
 
 }
 
@@ -85,8 +85,20 @@ constructor(props){
         {this.top()}
         <div className="wrapper"  >
 
-          <div className="section section-about-us" style={{paddingTop: "100px", paddingBottom: "100px", backgroundImage: "url(" + require("./assets/img/lake-burera.jpg") + ")"}}>
-            <Container style={{opacity: "80%"}}>
+
+
+          <div className="section section-about-us" style={{paddingTop: "50px", paddingBottom: "100px", backgroundImage: "url(" + require("./assets/img/lake-burera.jpg") + ")"}}>
+            <Container >
+              <Row>
+                <Col md="12" style={{textAlign: "center"}}>
+                  <h1 style={{fontSize: "40px", fontWeight: "900", marginBottom: "10px"}}>SERVICES</h1>
+                  <hr style={{border: "0.5px solid black",
+
+                    marginBottom: "30px",
+                    display: "block",
+                  maxWidth: "200px"}}></hr>
+                </Col>
+              </Row>
               <Row style={{display: "tableCell"}}>
                 <Col className="text-center" style={colStyle} md="4" id="assembly" onMouseEnter={this.handleHover} >
                   <div class="1" style={divStyle1} >
