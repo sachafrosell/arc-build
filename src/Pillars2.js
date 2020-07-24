@@ -56,7 +56,8 @@ const divStyle2 = {
 }
 
 const colStyle = {
-  paddingTop: "5px"
+  paddingTop: "5px",
+  minWidth: "300px"
 
 }
 
@@ -155,7 +156,7 @@ constructor(props){
 
 
                 <Col className="text-center" style={colStyle} md="4">
-                  <div style={divStyle2}>
+                  <div style={divStyle1}>
                     <h1 style={titleStyle} className="title">
                       <br />
                       <span style={{fontWeight: "900px"}}>

@@ -40,8 +40,7 @@ function InfoFooter() {
 
             </div>
             <h5 style={{fontSize: "13px", opacity: "30%"}}>
-              To create a scalable and sustainable green transport solution across Africa,
-              with minimal impact on the environment to enhance local communities by ensuring access for all.
+            To create a scalable and sustainable green infrastructure solution across Africa, with minimal impact on the environment to enhance local communities by ensuring access for all.
             </h5>
           </Col>
           <Col md="2">
@@ -89,25 +88,13 @@ function InfoFooter() {
                 ARC GLOBAL
               </a>
               <p style={{marginTop: "-10px"}}></p>
-              <a target="_blank" href="https://arcrideglobal.com/" style={{color: "inherit"}}>
-                ARC RIDE
-              </a>
-              <p style={{marginTop: "-10px"}}></p>
-              <a target="_blank" href="https://www.facebook.com/ARC-Ride-100580288315491" style={{color: "inherit"}}>
-                FACEBOOK
-              </a>
-              <p style={{marginTop: "-10px"}}></p>
-              <a target="_blank" href="https://www.instagram.com/arc_ride/" style={{color: "inherit"}}>
-                INSTAGRAM
-              </a>
 
 
 
 
-              <p style={{marginTop: "-10px"}}></p>
-              <a target="_blank" href="https://twitter.com/arc_ride" style={{color: "inherit"}}>
-                TWITTER
-              </a>
+
+
+
             </div>
           </Col>
           <Col md="3" style={{paddingLeft: "15px"}}>

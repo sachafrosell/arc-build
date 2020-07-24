@@ -98,14 +98,10 @@ function Challenge() {
                   maxWidth: "50px"}}></hr>
                 <h5 className="description" style={{fontSize: "17px", color: "black", fontWeight: "500px", opacity: "60%"}}>
 
-                    Existing transport shortcomings increase both congestion and pollution in
-                    the cities and lack of connectivity in the rural areas.
+                     Existing transport shortcomings increase both congestion and pollution in cities and negatively affect connectivity in rural areas.
                     This lack of key infrastructure has knock on effects on
                     the costs of goods and services.
-                    It is globally recognised that roads are central to economic development
-                    however in the countries we operate only a small percentage are paved for
-                    example in Rwanda only 19% of roads are paved. This amounts to 15,000km of
-                    unpaved road network in Rwanda alone.
+                    It is globally recognised that roads are central to economic development, however in the countries in which we operate, only a small percentage of roads are paved. For example, in Rwanda only 19% of roads are paved. This amounts to a 15,000km unpaved road network in Rwanda alone.
 
 
                   </h5>
@@ -140,7 +136,7 @@ function Challenge() {
                     maxWidth: "50px"}}></hr>
                   <h5 className="description" style={{fontSize: "17px", color: "black", fontWeight: "500px", opacity: "60%"}}>
 
-                      ARC Builds exclusive partnerships allow us to deliver a unique globally leading solution to road building.
+                      ARC Builds exclusive partnerships allowing us to deliver a unique globally leading solution to road building.
                       We can build feeder, secondary and tertiary roads and provide our clients an average saving of
                       25% whilst creating local jobs and being much better for the environment.
                       Our roads are high quality and will stand the test of time.

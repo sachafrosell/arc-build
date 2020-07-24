@@ -42,7 +42,7 @@ const ButtonStyle = {
   float: "left",
   marginRight: "5px",
   marginLeft: "3px",
-  marginTop: "2px",
+  marginTop: "10px",
   fontSize: "12px"
 }
 
@@ -56,7 +56,7 @@ function Competition() {
           className="page-header-image"
           style={{
             background:  "url(" + require("./assets/img/captureting.jpg") + ")",
-        
+
           }}
 
         ></div>

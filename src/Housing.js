@@ -62,7 +62,8 @@ function PillarPage() {
           <PillarPageHeader />
         </div>
         <HousingInfo />
-      
+        <p style={{height: "100px", backgroundColor: "rgba(0, 0, 0, 0.3)", marginBottom: "0px"}}></p>
+
         <InfoFooter />
         <DarkFooter />
 

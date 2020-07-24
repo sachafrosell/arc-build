@@ -81,9 +81,7 @@ function Competition() {
               ARC Build is developing a scalable model for cost-effective,
               carbon-sensitive homes that will positively influence future generations
               and be an example for low cost housing in developing nations.
-              This will be to help manage the huge growing demand for
-              affordable housing experienced in rapidly growing Africa
-              cities such as Kigali.
+              This will be to help manage the huge growing demand for affordable housing experienced in rapidly growing African cities, such as Kigali.
             </h5>
           </div>
           <p style={{
@@ -118,12 +116,7 @@ function Competition() {
             </h5>
             <h5 className="description" style={{fontSize: "17px", color: "#FFF", fontWeight: "500px"}}>
 
-              By using local supply chains, we create jobs building efficient and sustainable homes.
-              We will also use sustainable materials such as timber over environmentally-damaging
-              construction materials such as concrete or steel where possible to ensure a minimal
-              carbon footprint for our company and Rwanda as a country.
-              This project will create a model that will hit future ecological targets in Rwanda and can set
-              important precedents in Africa.
+              By using local supply chains, supporting our efforts to create local jobs whilst creating efficient and sustainable homes. We will also use sustainable materials such as timber over environmentally-damaging construction materials such as concrete or steel where possible to ensure a minimal carbon footprint for our company and Rwanda as a country. This project will create a model for future sustainable growth.
 
             </h5>
           </div>

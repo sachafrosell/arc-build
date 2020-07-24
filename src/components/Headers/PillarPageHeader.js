@@ -102,11 +102,11 @@ function PillarPageHeader() {
               </Col>
               <Col md="8">
                 <div>
-                  <blockquote className="blockquote text-right" style={{color: "#1aff1a", border: "none"}}>
+                  <blockquote className="blockquote text-right" style={{color: "#FFF", border: "none"}}>
                     <p className="mb-0" style={{fontSize: "14px", fontStyle: "italic", color: "#00D4FF", fontWeight: 400}}>
-                      “Many African economies have experienced significant growth in recent years. This growth could have been even greater if the countries concerned had had appropriate transport infrastructure in place.”
+                      “Many African economies have experienced significant growth in recent years. This growth could have been even greater if the countries concerned had the appropriate transport infrastructure in place.”
                     </p>
-                    <cite title="Source Title" style={{fontSize: "13px", opacity: "60%", fontStyle: "italic" }}> - Ashurst International Law Firm</cite>
+                    <cite title="Source Title" style={{fontSize: "13px", opacity: "75%", fontStyle: "italic" }}> - Ashurst International Law Firm</cite>
 
                   </blockquote>
                 </div>
