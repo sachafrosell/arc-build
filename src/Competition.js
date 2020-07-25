@@ -77,13 +77,13 @@ function Competition() {
               display: "block",
               maxWidth: "50px"
             }}></p>
-          <h5 className="description" style={{fontSize: "17px", color: "#FFF", fontWeight: "500px"}}>
+            <h5 className="description" style={{fontSize: "17px", color: "#FFF", fontWeight: "500px"}}>
 
-            ARC Build aims to be an exemplar for emerging construction corporations looking to include themselves
-            in an African New Green Deal whilst helping to build the infrastructure necessary to support societies
-            going through rapid transformation. We achieve this by building future-proof
-            infrastructure that enables effective transportation and building affordable
-            homes that will stand the test of time.This is reinforced by the decades of
+              ARC Build aims to be an exemplar for emerging construction corporations looking to include themselves
+              in an African New Green Deal whilst helping to build the infrastructure necessary to support societies
+              going through rapid transformation. We achieve this by building future-proof
+              infrastructure that enables effective transportation and building affordable
+              homes that will stand the test of time. This is reinforced by the decades of
             practical experiences of the team in Rwanda, Nigeria and internationally.
                 </h5>
               </div>
