@@ -84,7 +84,7 @@ function Competition() {
               going through rapid transformation. We achieve this by building future-proof
               infrastructure that enables effective transportation and building affordable
               homes that will stand the test of time. This is reinforced by the decades of
-            practical experiences of the team in Rwanda, Nigeria and internationally.
+              practical experiences of the team in Rwanda, Nigeria and internationally.
                 </h5>
               </div>
               <Link to='/arc-roads'>
