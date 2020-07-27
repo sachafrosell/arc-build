@@ -85,18 +85,18 @@ function Competition() {
               infrastructure that enables effective transportation and building affordable
               homes that will stand the test of time. This is reinforced by the decades of
               practical experiences of the team in Rwanda, Nigeria and internationally.
-                </h5>
-              </div>
-              <Link to='/arc-roads'>
-              <Button style={ButtonStyle}>
-                ARC ROAD
-              </Button>
-            </Link>
-            <Link to='/arc-housing'>
-              <Button style={ButtonStyle}>
-                ARC HOUSING
-              </Button>
-            </Link>
+            </h5>
+          </div>
+          <Link to='/arc-roads'>
+            <Button style={ButtonStyle}>
+              ARC ROAD
+            </Button>
+          </Link>
+          <Link to='/arc-housing'>
+            <Button style={ButtonStyle}>
+              ARC HOUSING
+            </Button>
+          </Link>
 
 
           <div className="separator separator-primary"></div>

@@ -12,6 +12,7 @@ import Team from './Team.js'
 import InfoFooter from "./components/Footers/InfoFooter.js"
 import Pillars from './Pillars2.js'
 import HousingInfo from './HousingInfo.js'
+import HousingInfo2 from './HousingInfo2.js'
 
 
 // reactstrap ./components
@@ -62,6 +63,7 @@ function PillarPage() {
           <PillarPageHeader />
         </div>
         <HousingInfo />
+
         <p style={{height: "100px", backgroundColor: "rgba(0, 0, 0, 0.3)", marginBottom: "0px"}}></p>
 
         <InfoFooter />
